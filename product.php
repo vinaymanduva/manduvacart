@@ -99,7 +99,7 @@ html, body {
 <div id = 'S'>
 <h4 class="nidhi">
  <?php echo "WELCOME....:-".$_SESSION ['name']?> 
-</h4><div class="sri"><a href="login.html">Logout</a></div>
+</h4><div class="sri"><a href="index.html">Logout</a></div>
 <div class="sr"><a href="show.php">MY CART</a></div></div>
 <h1> SHOES</h1>
 
