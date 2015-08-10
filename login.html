@@ -1,0 +1,51 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+  text-align:center;
+  color:white;
+}
+html, body {
+            width: 100%;
+            height: 100%;
+            text-align:center;
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+            color: #444;
+             background: url(https://pbs.twimg.com/profile_images/354890582/symbol.jpg);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+     padding-bottom: 500px;
+            -webkit-font-smoothing: antialiased;
+    
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}</style>
+</head>
+<title>SHOPPERS STOP</title>
+<body>
+<h1>SHOPPERS STOP</h1>
+<form action="http://localhost/login.php" method="post">
+Email:<br>
+<input type="text" name="email">
+<br>
+password:<br>
+<input type="password" name="password">
+<br>
+<br>
+<input type="submit" value="login">
+</form>
+	Click register to create a new account
+<form action="http://localhost/register.html" method="post">
+<input type="submit" value="register">
+</form>
+</body>
+</html>
